@@ -1,6 +1,8 @@
 package com.resume;
 
-public class Education {
+import java.io.Serializable;
+
+public class Education implements Serializable{
     private String school;
     private long year;
     private String degree;

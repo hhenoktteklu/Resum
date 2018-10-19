@@ -1,6 +1,8 @@
 package com.resume;
 
-public class Experience {
+import java.io.Serializable;
+
+public class Experience implements Serializable{
     private String company;
     private String title;
     private long startingDate;
